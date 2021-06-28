@@ -8,3 +8,11 @@ export interface InfoPage{
     instagram?: string;
     equipo_trabajo?: any[];
 }
+
+export interface InfoTeam<Array> {
+  frase?: string;
+  nombre?: string;
+  subtitutlo?: string;
+  twitter?: string;
+  url?: string;
+}
