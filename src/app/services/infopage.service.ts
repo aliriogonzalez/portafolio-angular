@@ -23,7 +23,7 @@ export class InfopageService {
       .subscribe((resp:InfoPage) =>{
       this.loaded_data=true;
       this.info=resp;
-      console.log(this.info.email);
+      //console.log(this.info.email);
     })
   }
   private loadTeam(){
@@ -31,7 +31,7 @@ export class InfopageService {
       .subscribe((respTeam:any)=>{
         this.loaded_data_team=true;
         this.team = respTeam;
-        console.log(this.team);
+        //console.log(this.team);
       })
   }
 }
